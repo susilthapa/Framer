@@ -2,6 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   padding: 2rem;
+  justify-content: space-around;
+  color: #fff;
 }
 
 .cardContainre .card {
