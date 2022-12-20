@@ -1,0 +1,16 @@
+.cardContainre {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.cardContainre .card {
+  margin: 1rem;
+}
+
+.navContainer {
+  width: 100vw;
+}
+.navContainer .navbar {
+  width: 100%;
+}
