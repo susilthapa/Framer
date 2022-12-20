@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Card from "https://framer.com/m/Card-g0hh.js@GKNMhhPrE2uAQt2L89Wd";
+import Card from "https://framer.com/m/Card-g0hh.js@CdQu0gOsCaf4QUlk0fbm";
 
 import { Tip } from "../components/Tip";
 import pizzaImage from "../public/images/pizza.jpg";
