@@ -1,10 +1,12 @@
 import Head from "next/head";
-import { Tip } from "../components/Tip";
-import { Container } from "../components/Container";
+import Card from "https://framer.com/m/Card-g0hh.js@CQqPXa1zk4vLvfDcQpgm";
 
-// A Smart Component from Framer
-import Toggle from "https://framer.com/m/Toggle-B5iT.js@52zFaz7rN7Bt3pjtYxWH";
-import Card from "https://framer.com/m/Card-STzS.js@KA54VXNd4cj0BWEr9o9r";
+import { Tip } from "../components/Tip";
+import pizzaImage from "../public/images/pizza.jpg";
+import hotelImage from "../public/images/hotel.jpg";
+import lakeImage from "../public/images/lake.jpg";
+import beachImage from "../public/images/beach.jpg";
+
 export default function Home() {
   return (
     <>
@@ -13,11 +15,13 @@ export default function Home() {
         <meta name="description" content="Modules" />
         <link rel="icon" href="/favicon.png" />
       </Head>
-
-      <Container>
-        <Card />
-        <Tip />
-      </Container>
+      <div className="cardContainre">
+        <Card image={pizzaImage} className="card" title="Pizza" />
+        <Card image={hotelImage} className="card" title="Hotel" />
+        <Card image={lakeImage} className="card" title="Lake" />
+        <Card image={beachImage} className="card" title="Beach" />
+      </div>
+      <Tip />
     </>
   );
 }
